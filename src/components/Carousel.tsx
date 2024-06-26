@@ -15,7 +15,7 @@ export interface CarouselProps {
 }
 
 const Carousel: React.FC<CarouselProps> = ({
-  isInfinite,
+  isInfinite, 
   children,
   visibleItems = 3,
 }) => {
